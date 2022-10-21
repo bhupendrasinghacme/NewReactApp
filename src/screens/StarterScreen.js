@@ -36,7 +36,7 @@ const StarterScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 2,
+    flex: 1,
     backgroundColor: "#83D2BF"
   },
   bigBlue: {
