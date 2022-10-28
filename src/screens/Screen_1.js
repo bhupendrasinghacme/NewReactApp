@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
 
-const Screen_1 = () => {
+const Screen_1 = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.header_text}>

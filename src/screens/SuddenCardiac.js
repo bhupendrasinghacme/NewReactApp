@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, PixelRatio, ScrollView, StyleSheet, Text, View, TouchableHighlight } from "react-native";
 
-const SuddenCardiac = () => {
+const SuddenCardiac = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text style={styles.header_text}>What is Sudden Cardiac Arrest?</Text>

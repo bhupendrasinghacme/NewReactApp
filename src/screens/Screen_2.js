@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableHighlight } from 'react-native';
 
 
-const Screen_2 = () => {
+const Screen_2 = ({ navigation }) => {
     return (
         <View style={styles.container}>
 
